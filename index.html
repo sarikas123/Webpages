@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="label-hover">
+        <div class="clickable">
+            <div onclick="toggleUnderline(this)">
+              <div class="container"></div>
+              <label for="option" class="green-text"
+                >___________Bundle & save_____________</label
+              >
+            </div>
+            <br />
+            <div class="square1" ;>
+              <input type="radio" name="option" id="option1" value="option1" />
+              <label for="option1" class="discount">1 Pair</label><br />
+              <span>DKK 195.00</span>
+              <span style="color: black" class="discount">50% off</span>
+            </div>
+            <br />
+
+            <div class="square2">
+              <div class="underline-on-hover">
+                <input
+                  type="radio"
+                  name="option2"
+                  id="option2"
+                  value="option2"
+                />
+                <label for="option2" class="discount">2 Pair</label>
+                <label for="option" style="color: green">Most Popular</label>
+                <br />
+
+                <span>DKK 345.00</span>
+                <strike color="#ccc">DK195.00</strike>
+                <span style="color: black">40% off</span>
+                <br />
+
+                <label for="label1" class="discount">Size</label>
+                <label for="label2" class="total-label">Color</label>
+                <br />
+                <label for="cars">#1</label>
+                <select id="cars" name="cars">
+                  <option value="Size">S</option>
+                  <option value="digit">5.42 X 5.42</option>
+                </select>
+
+                <select id="cars" name="cars">
+                  <option value="color">Color</option>
+                  <option value="digit">5.42 X 5.42</option>
+                </select>
+                <br />
+                <label for="cars">#2</label>
+                <select id="cars" name="cars">
+                  <option value="Size">S</option>
+                  <option value="digit">5.42 X 5.42</option>
+                </select>
+
+                <select id="cars" name="cars">
+                  <option value="color">Color</option>
+                  <option value="digit">5.42 X 5.42</option>
+                </select>
+              </div>
+            </div>
+            <br />
+
+            <div class="square1">
+              <input type="radio" name="option" id="option3" value="option3" />
+              <label for="option3" class="discount">3 Pair</label><br />
+              <span>DKK 528.00</span>
+              <span class="discount" style="color: black">60% off</span>
+            </div>
+
+            <div class="underline-on-hover">
+              <label style="margin-top: 10px" class="green-text"
+                >Free 2 Day shipping</label
+              >
+              <label class="total-label">Total : DKK 360.00</label>
+            </div>
+            <div class="underline-on-hover">
+              <button id="addToCartButton" class="green-button">+ ADD TO CART</button
+              ><br />
+              <label><i>@Powered by Pumper</i> </label></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

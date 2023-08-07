@@ -1,0 +1,107 @@
+.box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 350px;
+}
+
+.square1 {
+  width: 300px;
+  height: 50px;
+  border: 2px solid #ccc;
+}
+
+.square2 {
+  width: 300px;
+
+  height: 130px;
+  border-color: green;
+  border: 2px solid #ccc;
+}
+
+.container {
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
+
+.green-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 40px;
+  right: 20px;
+}
+
+p {
+  position: absolute;
+  left: 50px;
+
+  top: 20px;
+}
+
+.discount {
+  width: 120px;
+  height: 19px;
+  top: 146px;
+  left: 80px;
+  padding: 10px;
+  margin: 100px;
+  margin-left: 20px;
+}
+
+.total-label {
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.green-text {
+  color: green;
+}
+
+.label-container {
+  margin-bottom: 5px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+label:hover {
+  border-color: blue;
+}
+
+select#cars:hover {
+  border-color: aquamarine;
+}
+
+.square1:hover {
+  border-color: aqua;
+}
+
+.square2:hover {
+  border-color: aqua;
+}
+
+.container:hover {
+  border-color: aqua;
+}
